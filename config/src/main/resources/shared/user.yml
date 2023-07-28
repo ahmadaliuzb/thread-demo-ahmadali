@@ -1,0 +1,36 @@
+server:
+  port: 8210
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/user_db
+    username: postgres
+    password: ahmadali1976
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        naming:
+          implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl
+        temp:
+          use_jdbc_metadata_defaults: false
+    hibernate:
+      ddl-auto: create
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: ahmadali.backend.dev@gmail.com
+    password: cyvyvgqygszqkezf
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+          auth: true
+          starttls:
+            enable: true
+          connection-timeout: 60000
+          timeout: 60000
+          write-timeout: 60000
+
+

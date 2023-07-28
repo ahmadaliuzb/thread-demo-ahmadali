@@ -1,0 +1,15 @@
+server:
+  port: 8761
+eureka:
+  client:
+    eureka-connection-idle-timeout-seconds: 5
+#    eureka-server-read-timeout-seconds: 60
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+    peer-node-read-timeout-ms: 10000
+    renewal-percent-threshold: 0.85
+#  instance:
+#    hostname: localhost
+#    lease-expiration-duration-in-seconds: 15
+#    lease-renewal-interval-in-seconds: 5

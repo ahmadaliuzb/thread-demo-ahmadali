@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: view
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+      password: ahmadali1976
+      username: user
+#  profiles:
+#    active: dev

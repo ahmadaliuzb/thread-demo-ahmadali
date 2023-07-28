@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="email" target="11" />
+      <module name="email.main" target="11" />
+      <module name="email.test" target="11" />
+      <module name="student.main" target="11" />
+      <module name="student.test" target="11" />
+      <module name="university.main" target="11" />
+      <module name="university.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
